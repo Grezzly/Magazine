@@ -1,0 +1,429 @@
+@import url(http://fonts.googleapis.com/css?family=Racing+Sans+One&);
+
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(arialb.ttf); /* Для IE5-8 */
+    src: local(pompadur), url(arialb.ttf); /* Для остальных браузеров */
+}
+
+#backtop {
+    position: absolute; /*Эта и две следующие строчки дают блок на всю ширину*/
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    clear: both;
+    width: 100%;
+    height: 200px;
+    background-color: #000e19;
+    display: block;
+}
+
+#topmenu {
+    width: 1170px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.empty {
+    width: 115px;
+    height: 50px;
+    display: block;
+    background-color: #001a2e;
+}
+
+#topmenu tr td {
+    display: inline-block;
+    padding: 0;
+    border-right: 1px solid black;
+}
+
+#topmenu tr td a {
+    width: 100%;
+    height: 50px;
+    display: block;
+    font-family: arialb, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    background: #001a2e;
+}
+
+#topmenu tr td a:hover {
+    background: #01447c;
+    background: -moz-linear-gradient(top, #01447c 0%, #002c4f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01447c), color-stop(100%,#002c4f));
+    background: -webkit-linear-gradient(top, #01447c 0%,#002c4f 100%);
+    background: -o-linear-gradient(top, #01447c 0%,#002c4f 100%);
+    background: -ms-linear-gradient(top, #01447c 0%,#002c4f 100%);
+    background: linear-gradient(to bottom, #01447c 0%,#002c4f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01447c', endColorstr='#002c4f',GradientType=0 );
+}
+
+#topmenu tr td a img {
+    padding-left: 16px;
+    padding-top: 11px;
+    padding-right: 8px;
+    float: left;
+}
+
+#topmenu tr td a span {
+    padding-top: 16px;
+    padding-right: 20px;
+    float: left;
+}
+
+#topmenu tr td:last-child {
+    width: 77px;
+    height: 50px;
+    border: none;
+}
+
+#topmenu tr td:last-child img {
+    float: right;
+    padding-right: 20px;
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+#topmenu tr td:last-child span {
+    font-size: 21px;
+    font-family: 'Racing Sans One', cursive;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: normal;
+
+}
+
+#logo {
+    float: left;
+    font-size: 74px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Racing Sans One', cursive;
+    text-decoration: none;
+}
+
+#phone {
+    float: left;
+    width: 250px;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    font-family: arialb, sans-serif;
+    padding-left: 120px;
+}
+
+#phone img {
+    float: left;
+    margin-top: 52px;
+}
+
+#phone span {
+    float: left;
+    margin-top: 54px;
+}
+
+#logodiv {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#search {
+    width: 264px;
+    height: 50px;
+    float: left;
+    background: #ffffff;
+    margin-top: 43px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#search_form input[type=text] {
+    width: 210px;
+    height: 48px;
+    font-size: 26px;
+    font-family: arialb, sans-serif;
+    float: left;
+    border: none;
+    border-right: 1px solid #d7d7d7;
+}
+
+#search_form input[type=text]:focus {
+     outline: none;
+ }
+
+#search_form input[type=submit] {
+    background: url("images/search.png") no-repeat center;
+    width: 53px;
+    height: 50px;
+    border: none;
+}
+
+#search_form input[type=submit]:focus {
+    outline: none;
+}
+
+#search_form input[type=submit]:hover {
+    cursor: pointer;
+}
+
+#cart_div {
+    width: 230px;
+    height: 50px;
+    background-color: #02a8f6;
+    color: #ffffff;
+    float: right;
+    font-family: arialb, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 39px;
+    margin-top: 43px;
+}
+
+#cart_div img:first-child {
+    float: left;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+#cart_div span {
+    padding-left: 5px;
+    float: left;
+    padding-top: 17px;
+}
+
+#cart_div img:last-child {
+    float: right;
+    padding-right: 17px;
+    padding-top: 18px;
+}
+
+.cracc span {
+    letter-spacing:  normal;
+}
+
+#backgr_top_list {
+    position: absolute; /*Эта и две следующие строчки дают блок на всю ширину*/
+    top: 0;
+    left: 0;
+    margin: 200px auto 0;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background: #014781; /* Old browsers */
+    background: -moz-linear-gradient(top, #014781 0%, #002b4f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#014781), color-stop(100%,#002b4f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #014781 0%,#002b4f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #014781 0%,#002b4f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #014781 0%,#002b4f 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #014781 0%,#002b4f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014781', endColorstr='#002b4f',GradientType=0 ); /* IE6-9 */
+}
+
+#top_list {
+    width: 1170px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#top_list ul {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
+.list_link {
+    display: inline-block;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-right: 1px solid transparent;
+    height: 40px;
+    font-family: 'FontAwesome',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+
+#top_list img {
+    padding-left: 5px;
+}
+
+
+.border_top_list {
+    width: 1px;
+    height: 60px;
+    float: left;
+    background: #17568b;
+    background: -moz-linear-gradient(top, #17568b 0%, #163d5d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#17568b), color-stop(100%,#163d5d));
+    background: -webkit-linear-gradient(top, #17568b 0%,#163d5d 100%);
+    background: -o-linear-gradient(top, #17568b 0%,#163d5d 100%);
+    background: -ms-linear-gradient(top, #17568b 0%,#163d5d 100%);
+    background: linear-gradient(to bottom, #17568b 0%,#163d5d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17568b', endColorstr='#163d5d',GradientType=0 );
+    display: inline-block;
+    position: relative;
+}
+
+.list_link:hover {
+    background: #02a8f6;
+    border-bottom: 8px solid #001a2e;
+    height: 32px;
+}
+
+#top_list ul .dropdown_list {
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    top: 100%;
+    list-style-type: none;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    box-shadow: 0 -6px 0 0 #02a8f6;
+    background-color: #ffffff;
+    margin-top: 6px;
+}
+
+#top_list ul .dropdown_list li a {
+    color: #13aef7;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: arialb, sans-serif;
+    padding-left: 20px;
+}
+
+#top_list ul .dropdown_list li {
+    padding-top: 7px;
+}
+
+#top_list ul .dropdown_list li a:hover {
+    color: #001c32;
+}
+
+#top_list ul .dropdown_list li a img {
+    padding-left: 45px;
+}
+
+#top_list ul .dropdown_list li:first-child {
+    padding-top: 23px;
+}
+
+#backgr_body {
+    position: absolute; /*Эта и две следующие строчки дают блок на всю ширину*/
+    top: 0;
+    left: 0;
+    margin: 260px auto 0;
+    clear: both;
+    width: 100%;
+    height: 1530px;
+    background: #c6cdd2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #c6cdd2 0%, #fafafa 8%, #fafafa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6cdd2), color-stop(8%,#fafafa), color-stop(100%,#fafafa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #c6cdd2 0%,#fafafa 8%,#fafafa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #c6cdd2 0%,#fafafa 8%,#fafafa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #c6cdd2 0%,#fafafa 8%,#fafafa 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #c6cdd2 0%,#fafafa 8%,#fafafa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6cdd2', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+}
+
+#div_news {
+    width: 1170px;
+    height: 401px;
+    margin: 30px auto 0;
+    background: #001c32;
+}
+
+/*#news_corner_backgr {
+    width: 0;
+    height: 0;
+    border-top: 130px solid #02a8f6;
+    border-right: 270px solid transparent;
+    position: absolute;
+}
+
+#news_corner_info {
+    color: #ffffff;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 35px;
+    width: 130px;
+    margin-left: 20px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+#news_corner_info span {
+    font-size: 32px;
+    margin-left: 5px;
+}
+*/
+#news_backgr_info {
+    background: #001c32;
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    left: 974px;
+}
+
+.news_list a p {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border-top: 130px solid #02a8f6;
+    border-right: 270px solid transparent;
+    position: absolute;
+}
+
+.news_list a p span {
+    color: #ffffff;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 35px;
+    line-height: 27px;
+}
+
+#news_1 {
+    width: 1170px;
+    height: 401px;
+}
+
+#news_1 img {
+    float: left;
+}
+
+.dropdown_list {
+    margin-bottom: 0;
+    width: 145px;
+    height: 150px;
+    position: absolute;
+    top: 100%;
+    margin-left: -19px;
+    margin-top: 8px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    box-shadow: 0 -8px 0 0 #02a8f6;
+}
+
+.dropdown_list li {
+    color: #24b4f7;
+    list-style-type: none;
+}
+
+.dropdown_list li:hover {
+    color: #001c32;
+}
+
+
