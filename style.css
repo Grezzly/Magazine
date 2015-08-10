@@ -22,7 +22,7 @@
     width: 1170px;
     height: 50px;
     margin: 0 auto;
-    /*display: block;*/
+    display: block;
 }
 
 .empty {
@@ -33,7 +33,7 @@
 }
 
 #topmenu tr td {
-    /*display: inline-block;*/
+    display: inline-block;
     padding: 0;
     border-right: 1px solid black;
 }
@@ -48,7 +48,6 @@
     color: white;
     font-size: 13px;
     background: #001a2e;
-    position: relative;
 }
 
 #topmenu tr td a:hover {
@@ -76,29 +75,25 @@
 }
 
 #topmenu tr td:last-child {
-    /*width: 162px;*/
+    width: 77px;
     height: 50px;
     border: none;
 }
 
 #topmenu tr td:last-child img {
-    /*float: right;*/
-    /*padding-right: 20px;*/
-    /*padding-left: 0;*/
-    /*padding-top: 20px;*/
-    position: absolute;
-    right: 0;
-    top: 9px;
+    float: right;
+    padding-right: 20px;
+    padding-left: 0;
+    padding-top: 20px;
 }
 
 #topmenu tr td:last-child span {
     font-size: 21px;
     font-family: 'Racing Sans One', cursive;
-    padding-right: 32px;
+    padding-right: 0;
     padding-top: 10px;
     padding-left: 20px;
     font-weight: normal;
-    float: right;
 
 }
 
